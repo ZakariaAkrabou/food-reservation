@@ -73,7 +73,7 @@ class ReservController extends Controller
                 ]);
 
 
-                $storereserv->notify(new ReservationNotification($storereserv));
+              
                 Alert::success('Done','your Reservation Submited Successfully'); 
                 return redirect()->back();
                
